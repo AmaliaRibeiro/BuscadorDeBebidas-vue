@@ -1,4 +1,4 @@
-import {ref, watch, watchEffect} from 'vue'
+import {ref, watchEffect} from 'vue'
 import {defineStore} from 'pinia'
 
 export const useNotificacionStore = defineStore('notificacion', () => {
@@ -16,9 +16,6 @@ export const useNotificacionStore = defineStore('notificacion', () => {
     }
    })
 
-   //function $reset() {
-    
-   //}
     return {
        texto,
        error,
